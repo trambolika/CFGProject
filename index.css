@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif; }
+
+a {
+    text-decoration: none;
+}    
+/* =================
+Typography
+================= */
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    color: #000000;
+    font-size: 2rem;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    color: #000000;
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+
+.subtitle {
+    font-weight: 700;
+    color: #1792d2;
+    font-size: .75rem;
+    margin: 0;
+}
+
+footer { 
+
+    color: #707070;
+    font-weight: 300;
+    font-size: .75rem;
+}
+
+
+/* =================
+Layout
+================= */
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    background: #F5D00B;
+    padding: 2em 0;
+}
+
+@media (max-width: 675px) {
+    .container-nav {
+        flex-direction: column;
+    }
+    
+    header {
+        text-align: center;
+    }
+}
+
+/* navigation */
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-left: 2em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    padding: .25em 0;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #1792d2;
+}
+
+.current-page {
+    border-bottom: 1px solid #707070;
+}
+
+.current-page:hover {
+    color: #707070;
+}
+
+@media (max-width: 675px) {
+    nav ul {
+        flex-direction: column;
+    }
+    
+    nav li {
+        margin: .5em 0;
+    }
+
+
+}
+*/
+
+ /*columns style for home page*/ 
+
+        .container-column {
+            width: 95%;
+            max-width: 980px;
+            margin: 0 auto;
+        }
+        
+        .columns {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 1em 1em;
+            
+        }
+        
+        img {
+            max-width: 100%;
+        }
+        
+        .col-1 {
+            width: 30%;
+        }
+        
+        .col-2 {
+            width: 30%;
+        }
+        
+        .col-3 {
+            width: 30%;    
+        }
+        
+
+/*columns style for testimonials page*/ 
+
+
+.container-testimonials {
+    width: 70%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.columns-testimonials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 1em 0;
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+.col-a {
+    width: 70%;
+    margin-bottom: 5%;
+}
+
+.col-b {
+    width: 70%;
+    margin-bottom: 5%;
+}
+
+.col-c {
+    width: 70%;   
+    margin-bottom: 5%; 
+}
+
+/*styling for the form on about us page*/
+
+form {
+   
+    margin: 10% auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+   
+    border-color: #000;
+  }
+  
+  textarea {
+    
+    vertical-align: top;
+    height: 5em;
+  }
+  
+  .button {
+    padding-left: 90px; 
+  }
+  
+  button {
+    margin-left: .5em;
+  }
